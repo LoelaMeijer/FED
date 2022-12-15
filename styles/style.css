@@ -18,10 +18,36 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-background: #8d6e51;
+	--color-background-form: #fff;
+	--color-text-main: #ffff;
+	--color-text-second: #e1d3bb;
+	--color-text-third: #D3C29A;
+	--color-text-h2: #8d6e51;
+	--color-text-background-h2: #e1d3bb;
+	--color-background-list: #D3C29A4D;
+
+
+	--font-family: 'Cormorant Garamond', serif;
+	--font-style: italic;
+
 }
 
+@media (prefers-color-scheme: dark){
+	:root{
+	--color-background: #45322E;
+	--color-text-main: #ffff;
+	--color-text-second: #e1d3bb;
+	--color-text-third: #D3C29A;
+	--color-text-h2: #fff;
+
+	--color-text-background-h2: #887d6c;
+	--color-background-list: #887d6c;
+
+	--font-family: 'Cormorant Garamond', serif;
+	--font-style: italic;
+	}
+}
 
 
 
@@ -30,5 +56,509 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+body {
+	background-color: var(--color-background);
+	color: var(--color-text);
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+}
+header{
+	background-color: #8d6e51;
+}
 
+
+main{
+	background-color: var(--color-background);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+footer{
+	background-color: var(--color-background);
+}
+
+
+
+/*******************************/
+/* hieronder de CSS voor header*/
+/*******************************/
+header {
+	background-color: var(--color-background);
+	min-height: 4em;
+    padding: 0 1em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+
+  /* alle links in de header */
+header a {
+	color: var(--color-text-main);
+	padding:.5em 0;
+	text-decoration:none;
+  }
+
+header a img{
+	height: 41px;
+    margin-left: 165px;
+}
+ 
+header button {
+	padding:.5em;
+	display:flex;
+	align-items:center;
+	gap:.25em;
+	appearance:none;
+	background-color:var(--button-background);
+	border:none;
+	border-radius:.25em; 
+	font:inherit;
+	text-align:center;
+	color:var(--button-color);
+  }
+
+  header > button {
+	order:-1;
+  }
+
+  nav button {
+	justify-self:start;
+   }
+
+  nav {
+	padding: 1em;
+    display: grid;
+    align-content: start;
+    gap: 1em;
+    position: fixed;
+    left: 10vw;
+    width: 100vw;
+    left: 17px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: var(--color-background);
+    transform: translatex(100%);
+    transition: transform .4s;
+  }
+  
+  nav.toonMenu {
+	transform:translatex(42px);
+  }
+
+  nav ul { 
+	color: var(--color-text);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+	margin-top: 34%;
+    padding: 3rem 2rem;
+    line-height: 1em;
+    list-style: none;
+    font-size: 24px;
+  }
+
+  nav a {
+	border-bottom:solid 1px var(--menu-border);
+	display:flex;
+	align-items:center;
+	column-gap:.25em;
+  }
+
+  nav a.active {
+	font-weight: bold;
+    text-decoration: underline 2px;
+  }
+
+  
+/***********************************/
+/* hieronder de CSS voor section 1 */
+/***********************************/
+main section:first-of-type{
+	display: flex;
+	padding: 25px;
+}
+
+
+.home_img{
+	max-width: 100%;
+	border: 6px solid #f5f5ed;
+	margin: auto;
+	align-items: center;
+}
+
+/***********************************/
+/* hieronder de CSS voor section 2 */
+/***********************************/
+main section:nth-of-type(2){
+	padding: 1.5625em
+}
+
+
+main section:nth-of-type(2) video{
+	width: 90vw;
+    margin: 0 auto;
+    height: 300px;
+    display: block;
+	padding: 2px;
+}
+
+main section:nth-of-type(2) h3{
+	color: var(--color-text-main);
+    font-style: var(--font-style);
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1em;
+    margin: 0.25em;
+}
+
+
+/***********************************/
+/* hieronder de CSS voor section 3 */
+/***********************************/
+main section:nth-of-type(3){
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+main section:nth-of-type(3) img{
+	width: 88vw;
+	height: auto;
+	padding-top: 50px
+}
+
+main section:nth-of-type(3) h3{
+	color: var(--color-text-main);
+	font-style: var(--font-style);
+	font-family: var(--font-family);
+	text-align: center;
+	margin: 1em 0em 0em 0em;
+	font-size: 1.5em;
+}
+
+.listen{
+	padding: 0em 0em 5em 0em;
+	font-style: var(--font-style);
+	font-family: var(--font-family);
+	letter-spacing: 0.3em;
+}
+
+main section:nth-of-type(3) a{
+	text-decoration: none;
+	color: var(--color-text-second)
+}
+
+
+/***********************************/
+/* hieronder de CSS voor section 4 */
+/***********************************/
+
+main section:nth-of-type(4) h2{
+	color: var(--color-text-h2);
+	background-color: var(--color-text-background-h2);
+	font-family: var(--font-family);
+	font-style: var(--font-style);
+	margin: auto;
+	font-size: 20px;
+	padding: 2px 10px 2px 20px;
+	letter-spacing: 0.9em;
+	width: max-content;
+	line-height: 15px;
+}
+
+main section:nth-of-type(4) ul li h3{
+	color: var(--color-text-main);
+	background-color: var(--color-background-list);
+	display:grid;
+	grid-auto-columns:min-content;  
+	line-height: 1.5em;
+	text-align: center;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+main section:nth-of-type(4) ul{
+	color: var(--color-text-main);
+	font-family: var(--font-family);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	list-style: none;
+	padding: 0;
+}
+
+main section:nth-of-type(4) ul li{
+	font-style: var(--font-style);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+	margin-bottom: 62px;
+}
+
+main section:nth-of-type(4) ul li h4{
+	margin: 0;
+	font-size: 1.3em;
+}
+
+main section:nth-of-type(4) ul li h5{
+	display: flex;
+	justify-content: center;
+	font-size: 1.5em;
+	margin: 0;
+	line-height: 1.8em;
+}
+
+main section:nth-of-type(4) ul li p{
+	color: var(--color-text-second);
+	margin: 0;
+}
+
+main section:nth-of-type(4) ul li a{
+	color: var(--color-text-main);
+	text-decoration: none;
+}
+
+/***********************************/
+/* hieronder de CSS voor section 5 */
+/***********************************/
+
+main section:nth-of-type(5){
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+main section:nth-of-type(5) img{
+	width: 88vw;
+	height: auto;
+	padding: 50px 0px 80px 0px;
+}
+
+/***********************************/
+/* hieronder de CSS voor section 6 */
+/***********************************/
+
+main section:nth-of-type(6){
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+main section:nth-of-type(6) h2{
+	font-family: var(--font-family);
+    font-style: var(--font-style);
+	color: var(--color-text-h2);
+	background-color: var(--color-text-background-h2);
+	margin: auto;
+    font-size: 1.8em;
+    padding: 6px 10px 6px 20px;
+    letter-spacing: 0.6em;
+    width: max-content;
+    line-height: 15px;
+}
+
+main section:nth-of-type(6) ul{
+	color: var(--color-text-main);
+	font-family: var(--font-family);
+	font-style: var(--font-style);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	list-style: none;
+	padding: 0;
+}
+
+main section:nth-of-type(6) ul li{
+	font-style: var(--font-style);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+	margin-bottom: 62px;
+}
+
+main section:nth-of-type(6) ul li img{
+	width: 70vw;
+	height: auto;
+	padding-top: 50px
+}
+
+main section:nth-of-type(6) ul li h4{
+	margin: 0;
+    max-width: 70vw;
+    font-size: 2em;
+	font-weight: 10px;
+    text-align: center;
+}
+
+main section:nth-of-type(6) ul li p{
+	color: var(--color-text-second);
+	margin-top: 0.75em;;
+	letter-spacing: 0.1em;
+    font-size: 0.8em;
+}
+main section:nth-of-type(6) ul li a{
+	color: var(--color-text-second);
+	text-decoration: none;
+}
+
+main section:nth-of-type(6) button{
+	background-color: var(--color-background);
+    width: 196px;
+    height: 44px;
+    font-size: 14px;
+    padding: 2px 20px 2px 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #D3C29A;
+	margin-bottom: 7.5625em;
+	cursor: pointer;
+}
+
+main section:nth-of-type(6) button a{
+	color: var(--color-text-third);
+	font-style: var(--font-style);
+	text-decoration: none;
+}
+
+
+main section:nth-of-type(6) button:hover{
+	background-color: white;
+}
+
+
+/***********************************/
+/* hieronder de CSS voor section 7 */
+/***********************************/
+main section:nth-of-type(7){
+	background-color: var(--color-background-form);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(7) h2{
+	display: flex;
+    justify-content: center;
+    padding-top: 56px;
+}
+
+main section:nth-of-type(7) form{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section:nth-of-type(7) form label{
+	display: flex;
+    justify-content: center;
+}
+
+
+input[type=text] {
+display:flex;
+justify-content: center;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  }
+
+/***********************************/
+/* hieronder de CSS voor footer    */
+/***********************************/
+
+/**********************************************/
+/* hieronder de CSS voor pagina 2 - section 1 */
+/**********************************************/
+
+.book_img{
+	max-width: 100%;
+	align-items: center;
+	padding: 0;
+}
+
+/**********************************************/
+/* hieronder de CSS voor pagina 2 - section 2 */
+/**********************************************/
+
+
+main section:nth-of-type(2) h4{
+	font-style: var(--font-style);
+	color: var(--color-text-third);
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-weight: 100;
+    letter-spacing: 0.10em;
+}
+
+main section:nth-of-type(2) ul{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	max-width: 600px;
+    padding: 0;
+    font-size: 14px;
+	padding: 0.5em 0.6em
+}
+
+main section:nth-of-type(2) ul li{
+	list-style-type: none;
+}
+
+
+main section:nth-of-type(2) a{
+	font-style: var(--font-style);
+	color: var(--color-text-third);
+	text-decoration: none;
+	border: 2px solid #D3C29A;
+	padding: 0.5em 0.6em;
+	margin: 0px 5px 3rem;
+}
+
+/**********************************************/
+/* hieronder de CSS voor pagina 2 - section 3 */
+/**********************************************/
+
+main section:nth-of-type(3){
+	max-width: 542px;
+	margin-top: 2.5em;
+}
+
+
+
+main section:nth-of-type(3) p{
+	font-style: var(--font-style);
+	font-family: var(--font-family);
+	color: var(--color-text-third);
+	letter-spacing: 1px;
+}
+
+
+/*******************************/
+/* hieronder de CSS voor footer*/
+/*******************************/
+
+/* footer{
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1em;
+	text-align: center;
+	margin-top: auto;
+} */
