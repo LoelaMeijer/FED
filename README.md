@@ -100,7 +100,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdownschets_1.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdownschet_dynamish.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschets_dynamish.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -204,7 +204,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   <img src="readme-images/Brillen.JPG" width="375px" alt="Foto van hoe de brillen eruit zagen tijdens de test">
-  
+
   Tijdens deze test was het de bedoeling om de site te gebruiken met een visuele aandoening. Ik heb alle brillen met de verschillende ziektes uitgeprobeerd. De site van Billie Eilish is wat eenkleurig, dus dit was een klein obstakel tijdens het doen van deze tests. Maar over het algmeen zou ik zeggen dat het zeker mogelijk en toegankelijk is om deze site te gebruiken voor iemnand met een visuele aandoening. 
 </details>
 
