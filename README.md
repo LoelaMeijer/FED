@@ -45,7 +45,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Billie Eilish Book pagina
-  <img src="readme-images/breakdownschets_2.png width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/breakdownschets_2.png" width="375px" alt="omschrijving van de pagina">
 
 </details>
 
@@ -100,7 +100,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdownschets_1.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdownschet_dynamish_png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschet_dynamish.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -191,7 +191,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De shocks zijn voor mensen met bijvoorbeeld een ziekte zoals Parinson die hun spieren niet zo kunnen bewegen zoals zij willen. Door deze test kwamen we erachter of het mogelijk is voor iemand met zo'n soort ziekte om door de pagina te navigeren. Naar mijn ervaring ging het navigeren best goed, het gaat natuurlijk wel iets minder gemakkelijk dan voorheen maar over het algemeen lukte het. Nu denk ik wel dat ik een lage stand had aangezet en als je een echte ziekte hebt die je spieren beinvloedt, dat het misschien lastiger wordt. 
 
 
-  <img src="readme-images/Elastiekjes.jpg" width="375px" alt="Foto van hoe mijn handen waren vastgemaakt tijdens de test">
+  <img src="readme-images/Elastiekjes.JPG" width="375px" alt="Foto van hoe mijn handen waren vastgemaakt tijdens de test">
+
   De elastiekjes zijn voor mensen met een fysieke handicap, de elastiekjes op de foto zijn voor mensen waarbij 2 vinger aan elkaar gegroeid zijn. Vanuit mijn ervaring met de test is het voor een fysiek gehandicapt persoon (tot zekere hoogte) mogelijk om deze site te gebruiken. 
 
   
@@ -202,7 +203,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  <img src="readme-images/Brillen.jpg" width="375px" alt="Foto van hoe de brillen eruit zagen tijdens de test">
+  <img src="readme-images/Brillen.JPG" width="375px" alt="Foto van hoe de brillen eruit zagen tijdens de test">
+  
   Tijdens deze test was het de bedoeling om de site te gebruiken met een visuele aandoening. Ik heb alle brillen met de verschillende ziektes uitgeprobeerd. De site van Billie Eilish is wat eenkleurig, dus dit was een klein obstakel tijdens het doen van deze tests. Maar over het algmeen zou ik zeggen dat het zeker mogelijk en toegankelijk is om deze site te gebruiken voor iemnand met een visuele aandoening. 
 </details>
 
