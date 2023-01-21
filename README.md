@@ -62,7 +62,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenreader
   Wanneer ik probeer te navigeren door de Billie Eilish website met de screenreader, begint de screenreader met lezen van het allereerste 
   element in de linker bovenhoek. Als ik op tab klik om naar het volgende element te gaan, dan werkt dit niet heel goed en gaat de 
-  screenreader verder met voorlezen op volgorde. 
+  screenreader verder met voorlezen op zijn eigen volgorde. 
   
   De Billie Eilish website is dus niet heel toegankelijk, aangezien voor veel mensen de eerste linkse elementen van de pagina 
   helemaal niet relevant zijn maar ze wel moeten wachten totdat de screenreader bij het gewenste element is. 
@@ -72,11 +72,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Als je probeert te tabben zonder de screenreader aan, dan gaat hij elk individueel element af (echt elke zin etc). Dus het lijkt 
   alsof de tab op een gegeven moment niks meer doet, maar dan is hij bezig met langs de zinnen te gaan. Het is dus mogelijk om zonder 
-  de scrollen door de pagina te komen. Dus is goed voor de toegankelijkheid, aangezien sommige mensen misschien niet in staat zijn
+  te scrollen door de pagina te komen. Dit is dus goed voor de toegankelijkheid, aangezien sommige mensen misschien niet in staat zijn
   om de scrollbeweging te maken.  
-  Met de spatie gaat het beweging door de pagina een stuk gemakkelijker, nu spring je door de pagina heen zonder op de elementen op de
-  website te letten. 
-
+  Wanneer je met de spatie door de pagina heen gaat, dan gaat dit gelijk een stuk makkelijker. Op dit moment springt de screenreader door de pagina heen met grote stappen, zodat de gebruiker naar het stuk kan gaan waar hij/zij wilt zijn. 
   
   #### Motoriek (shocks, elastiekjes)
   We hebben in de eerste week niet een toegankelijkheidstest gedaan met de motoriek. 
@@ -97,9 +95,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
+  Dit is de breakdownschets van de gehele eerste pagina die ik uit ga werken. 
   <img src="readme-images/breakdownschets_1.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
+  De onderstaande afbeelding is een breakdownschets van een dynamisch deel van de website. Hierbij heb ik voor het menu gekozen, omdat ik nog niet precies weet hoe ik deze ga uitwerken. 
   <img src="readme-images/breakdownschets_dynamish.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
@@ -129,7 +129,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  In de meeting wisten de studenten waar ik mee was ook niet hoe ik mijn problemen met de code moest oplossen. Toevallig was Kelly Mae tegen hetzelfde probleem aangelopen met het embedden van de video's. Het is dus niet mogelijk om een video van een artiest toe te voegen aan je eigen pagina. Dit hebben we opgelost door een soort link toe te voegen aan de pagina, waardoor je geen thumbmail hebt maar wel de video kunt afspelen. 
 
   - Kelly Mae heeft een website doorgestuurd waardoor het wel lukt om een Billie Eilish video toe te voegen. 
     -> Youtube video's van artiestsen mogen blijkbaar niet zomaar op andere sites gebruikt worden. 
@@ -146,19 +146,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  Bij deze feedback les heeft iedereen zijn website op het grote scherm laten zien en gaf de docent feedback. Hierbij heb ik vooral vragen gesteld
-  over dingen die nog niet helemaal lukten, zoals het menu naar links laten sliden.
+  Bij deze feedback les heeft iedereen zijn website op het grote scherm laten zien en gaf de docent feedback. Hierbij heb ik vooral vragen gesteld over dingen die nog niet helemaal lukten, zoals het menu naar links laten sliden.
   Ook hebben we hierbij vastgesteld welke dingen ik van de surfaceplane uit ga werken; 
-  - Menu tab baar maken (slide van rechts naar links)
+
+  - Video
   - Dark Mode
   - Button Hover
-  - Fixed Header
+  - Advanced positioning: sticky
   - Toegankelijkheid+ ( in het menu aangeven waar de gebruiker zich bevind op de pagina )
 
 
   ### Verslag van meeting
-  Ik vond het heel nuttig om met de docent naar mijn werk te kijken en hierbij feedback te krijgen. Hierdoor had ik weer op een rijtje wat er nog moet gebeuren
-  en hoe ik dit uit zou gaan moeten werken. 
+  Ik vond het heel nuttig om met de docent naar mijn werk te kijken en hierbij feedback te krijgen. Hierdoor had ik weer op een rijtje wat er nog moest gebeuren en hoe ik dit uit zou gaan moeten werken. 
 
 
 </details>
@@ -176,9 +175,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Door met een tweede keer door de pagina te gaan met de screenreader kwam ik erachter dat het niet gemakkelijk is voor een screenreader-gebruiker 
-  om een video te bekijken. De screenreader ging als eerst alle elementen om de video heen lezen zoals; de titel, ondertitel en zelf het youtube logo werd
-  voorgelezen. Dit is niet heel toegankelijk, aangezien de gebruiker hoogstwaarschijnlijk niet geinteresseerd hierin is en gewoon de video wilt bekijken. 
+  Door met een tweede keer door de pagina te gaan met de screenreader kwam ik erachter dat het niet gemakkelijk is voor een screenreader-gebruiker om een video te bekijken. De screenreader ging als eerst alle elementen om de video heen lezen zoals; de titel, ondertitel en zelf het youtube logo werd voorgelezen. Dit is niet heel toegankelijk, aangezien de gebruiker hoogstwaarschijnlijk niet geinteresseerd hierin is en gewoon de video wilt bekijken. 
 
   Dit kan opgelost worden door de gebruiker de mogelijkheid te geven om sneller door de kopjes heen te tabben en niet verplicht te worden om alle tekst aan te horen. 
 
@@ -187,7 +184,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Tijdens de test hebben we een toegankelijkheidstest met shocks, elastikjes en ballonnen gedaan. 
+  Tijdens de test hebben we een toegankelijkheidstest met shocks, elastiekjes en ballonnen gedaan. 
   De shocks zijn voor mensen met bijvoorbeeld een ziekte zoals Parinson die hun spieren niet zo kunnen bewegen zoals zij willen. Door deze test kwamen we erachter of het mogelijk is voor iemand met zo'n soort ziekte om door de pagina te navigeren. Naar mijn ervaring ging het navigeren best goed, het gaat natuurlijk wel iets minder gemakkelijk dan voorheen maar over het algemeen lukte het. Nu denk ik wel dat ik een lage stand had aangezet en als je een echte ziekte hebt die je spieren beinvloedt, dat het misschien lastiger wordt. 
 
 
@@ -196,8 +193,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De elastiekjes zijn voor mensen met een fysieke handicap, de elastiekjes op de foto zijn voor mensen waarbij 2 vinger aan elkaar gegroeid zijn. Vanuit mijn ervaring met de test is het voor een fysiek gehandicapt persoon (tot zekere hoogte) mogelijk om deze site te gebruiken. 
 
   
-  De ballonnen zijn voor gebruikers met een concentratie probleem. Ik kwam er tijdens de tests achter dat ik persoonlijk niet afgeleid werd door de ballonnen, en ik de site zoals gewoonlijk kon door
-  navigeren. Dit komt denk ik mede doordat de site niet heel moeilijk te navigeren is, en hiervoor dus ook niet volle concentratie nodig is. 
+  De ballonnen zijn voor gebruikers met een concentratie probleem. Ik kwam er tijdens de tests achter dat ik persoonlijk niet afgeleid werd door de ballonnen, en ik de site zoals gewoonlijk kon door navigeren. Dit komt denk ik mede doordat de site niet heel moeilijk te navigeren is, en hiervoor dus ook niet volle concentratie nodig is. 
 
   Mijn uiteindelijke conclusie uit deze test is; het is mogelijk voor iemand met een handicap om deze site te gebruiken, als de handicap erger wordt kan het wat lastiger worden. 
 
@@ -270,7 +266,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. Robbert Spier (docent)
   3. Berry Nieskens (docent)
   4. State toevoegen aan buttons https://www.w3schools.com 
-  5. Hele menu + slide https://codepen.io/your-work/ 
+  5. Hele menu + slide + header https://codepen.io/your-work/ 
   6. Alles positioneren met flexbox https://codepen.io/shooft/pen/dymmLGG 
   7. Google fonts toevoegen https://dlo.mijnhva.nl/content/enforced/437099-FDMCI-2000FED121-DMCI-CMD-2223-1/FED%2022-23%20-%20Blok%202%20-%20Oefening%20typografie.pdf 
 
