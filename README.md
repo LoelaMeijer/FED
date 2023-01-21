@@ -100,7 +100,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### dynamisch deel (bijv menu): 
   De onderstaande afbeelding is een breakdownschets van een dynamisch deel van de website. Hierbij heb ik voor het menu gekozen, omdat ik nog niet precies weet hoe ik deze ga uitwerken. 
-  <img src="readme-images/breakdownschets_dynamish.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="/Users/juliameijer/Library/Mobile Documents/com~apple~CloudDocs/Vakken jaar 2/Frond_End_Development/basiswebsite/readme-images/breakdownschets_dynamish.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
